@@ -1,0 +1,6 @@
+.Hero {
+    background-image: url(../../../assets/restaurante.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
