@@ -30,7 +30,9 @@
 
 .Hero__ubi svg {
     font-size: 12rem;
-    margin-bottom: -3rem;
+    margin-bottom: -1rem;
+    border-bottom: solid 10px white;
+    padding-bottom: 1rem;
 }
 
 .Hero__ubi h2 {
