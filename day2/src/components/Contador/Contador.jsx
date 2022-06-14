@@ -6,7 +6,8 @@ function Contador({step, initialValue}) {
     let [interruptor, setInterruptor] = useState(true)
 
     const increment = () => setContador(contador + step);
-    const decrement = () => setContador(contador - step);
+    // const decrement = () => setContador(contador - step);
+    const decrement = () => setContador(((contador - step)>=0)?(contador - step):(contador = contador));
     const reset = () => {
         setContador(contador = initialValue);
         setInterruptor(interruptor = true)
